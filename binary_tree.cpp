@@ -21,6 +21,7 @@ node* buildtree(node* root)
 {
   cout << "enter the data " << endl;
   int data;
+  
   cin >> data;
   root= new node(data);
   
